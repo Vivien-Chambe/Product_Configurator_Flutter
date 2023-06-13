@@ -1,5 +1,5 @@
 # Product_Configurator_Flutter
-A demo app to learn Flutter usage 
+A demo app to learn Flutter usage, it displays differents products and let you configure it by choosing components. 
 
 ### USe the application : 
 For Windows : 
