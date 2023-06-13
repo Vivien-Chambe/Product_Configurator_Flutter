@@ -1,6 +1,11 @@
 # Product_Configurator_Flutter
 A demo app to learn Flutter usage 
 
+### USe the application : 
+For Windows : 
+Download the Release Windows folder, the you can find the exe and use it 
+
+
 ### Edit the products list :
 
 You can edit the products.json file. 
