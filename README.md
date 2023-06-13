@@ -9,6 +9,7 @@ For android relaeases
 The json file is organised like this:
 
 ```json
+[
 {
         "title": "Product 1",
         "imagePath": "assets/images/pc-asset.jpg",
@@ -156,12 +157,8 @@ The json file is organised like this:
           }
               ]
           }
-          ]
-      },
-      
-      ........
-      
  ]
+
 
 ``` 
 
