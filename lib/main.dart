@@ -1,9 +1,7 @@
-// ignore_for_file: deprecated_member_use
+// ignore_for_file: deprecated_member_use, sized_box_for_whitespace
 
 import 'package:flutter/material.dart';
 import 'dart:convert';
-import 'package:money_converter/money_converter.dart';
-import 'package:money_converter/Currency.dart';
 
 import 'package:flutter/services.dart'
     show DeviceOrientation, SystemChrome, rootBundle;
@@ -70,62 +68,32 @@ class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: const Text('Siemens Configurator'),
-          actions: [
-            IconButton(
-              icon: const ImageIcon(
-                AssetImage('images/hp_logo.png'),
-              ),
-              onPressed: () async {
-                String url = "https://www.hp.com/fr-fr/home.html";
-                if (await canLaunch(url)) {
-                  await launch(url);
-                } else {
-                  throw 'Could not launch $url';
-                }
-              },
-            ),
-            IconButton(
-              icon: const ImageIcon(
-                AssetImage('images/Siemens_logo.png'),
-              ),
-              onPressed: () async {
-                String url = "https://new.siemens.com/fr/fr.html";
-                if (await canLaunch(url)) {
-                  await launch(url);
-                } else {
-                  throw 'Could not launch $url';
-                }
-              },
-            ),
-          ],
-        ),
-        body: SingleChildScrollView(
-            child: Column(children: [
-          ListView.builder(
-            shrinkWrap: true,
-            itemCount: products.length,
-            itemBuilder: (context, index) {
-              final product = products[index];
-              return ProductItem(
-                title: product.title,
-                imagePath: product.imagePath,
-                link: product.link,
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => ConfiguratorPage(
-                            title: product.title,
-                            categories: product.categories,
-                            product: product)),
-                  );
-                },
+      appBar: AppBar(
+        title: const Text('Product Configurator'),
+      ),
+      body: ListView.builder(
+        shrinkWrap: true,
+        itemCount: products.length,
+        itemBuilder: (context, index) {
+          final product = products[index];
+          return ProductItem(
+            title: product.title,
+            imagePath: product.imagePath,
+            link: product.link,
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                    builder: (context) => ConfiguratorPage(
+                        title: product.title,
+                        categories: product.categories,
+                        product: product)),
               );
             },
-          ),
-        ])));
+          );
+        },
+      ),
+    );
   }
 }
 
@@ -529,7 +497,7 @@ class _ScreenItemState extends State<ScreenItem> {
         width: 400,
         child: Text(widget.name),
       ),
-      SizedBox(width: 100),
+      const SizedBox(width: 100),
       Text("\$${widget.price * nbScreens}",
           style: const TextStyle(fontWeight: FontWeight.bold)),
     ]);
