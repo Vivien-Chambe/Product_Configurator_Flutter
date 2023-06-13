@@ -7,10 +7,10 @@ Download the Release Windows folder, the you can find the exe and use it
 
 
 ### Edit the products list :
+IT's easy and fast: You just have to edit the products.json file. 
 
-You can edit the products.json file. 
 For Windows Release it can be found in the `data/flutter_assets/assets/` folder.
-For android relaeases
+
 The json file is organised like this:
 
 ```json
