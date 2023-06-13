@@ -1,5 +1,6 @@
 # Product_Configurator_Flutter
 A demo app to learn Flutter usage, it displays differents products and let you configure it by choosing components. 
+It's working for Windows, as a web app, IOS and Android but I need to update the release versions for the 3 last ones.
 
 ### USe the application : 
 For Windows : 
