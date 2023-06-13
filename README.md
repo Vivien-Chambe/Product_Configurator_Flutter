@@ -13,6 +13,14 @@ For Windows Release it can be found in the `data/flutter_assets/assets/` folder.
 
 The json file is organised like this:
 
+- `title` : name of your product
+
+- `imagePath` : path to the picture of your product, needs to be in `data/flutter_assets/assets/images/`
+- 
+- `link` : link to the quick specs of your product,
+
+Then you can add the different components of your product
+
 ```json
 [
 {
