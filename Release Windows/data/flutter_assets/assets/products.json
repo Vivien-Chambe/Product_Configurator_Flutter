@@ -2,20 +2,20 @@
     {
         "title": "Product 1",
         "imagePath": "assets/images/pc-asset.jpg",
-        "link": "https://github.com/neiviv-dev",
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08109685",
         "screens": [
             {
-              "name": "Screen 1",
+              "name": "Écran 1",
               "number": 1,
               "price": 10.0
             },
             {
-              "name": "Screen 2",
+              "name": "Écran 2",
               "number": 2,
               "price": 20.0
             },
             {
-              "name": "Screen 3",
+              "name": "Écran 3",
               "number": 3,
               "price": 30.0
             }
@@ -26,13 +26,29 @@
             "description": "One CPU",
             "options": [
               {
-                  "name": "Intel Core i3",
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
                   "price": 142.0
               },
               {
-                  "name": "Intel Core i5",
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
                   "price": 196.0
                 },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
               {
                   "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
                   "price": 325.00
@@ -66,15 +82,15 @@
                   "price": 0.0
               },
               {
-                  "name": "8GB (1x8GB) DDR5 4800 ",
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 50.60
               },
               {
-                  "name": "16GB (2x8GB) DDR5 4800 ",
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               },
               {
-                  "name": "16GB (1x16GB) DDR5 4800 ",
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               }
               ]
@@ -138,7 +154,7 @@
             "description": "",
             "options": [
               {
-                  "name": "Keyboard GR (incl. in base unit)",
+                  "name": "HP USB 320K Keyboard GR (incl. in base unit)",
                   "price": 0.0
               },
               {
@@ -146,11 +162,399 @@
                   "price": -6.35
               },
                 {
-                    "name": "RGB Keyboard",
+                    "name": "HP USB Business Slim Wired SmartCard CCID Keyboard",
                     "price": 11.37
                 },
                 {
-                    "name": "Wired Keyboard",
+                    "name": "HP 125 Black Wired Keyboard",
+                    "price": -0.69
+                }
+                ]
+              
+          },
+          
+          {
+            "name": "Warranty",
+            "description": "Select warranty",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "3 Year Onsite Warranty",
+                  "price": 50.60
+              },
+              {
+                  "name": "5 Year Onsite Warranty",
+                  "price": 101.20
+              }
+              ]
+          }
+          ]
+      },
+      {
+      "title": "Product 1",
+        "imagePath": "assets/images/pc-asset.jpg",
+        "screens": [
+            {
+              "name": "Écran 1",
+              "number": 1,
+              "price": 10.0
+            },
+            {
+              "name": "Écran 2",
+              "number": 2,
+              "price": 20.0
+            },
+            {
+              "name": "Écran 3",
+              "number": 3,
+              "price": 30.0
+            }
+          ],
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08109685",
+        "categories": [
+          {
+            "name": "CPU / Processor",
+            "description": "One CPU",
+            "options": [
+              {
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
+                  "price": 142.0
+              },
+              {
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
+                  "price": 196.0
+                },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
+              {
+                  "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
+                  "price": 325.00
+              }
+            ]
+          },
+          {
+            "name": "Operating System",
+            "description": "Please take cores of CPU into account",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "Windows 10 Pro 64-bit",
+                  "price": 50.60
+              },
+              {
+                  "name": "Windows 11 Pro 64-bit",
+                  "price": 101.20
+              }
+              ]
+          },
+          {
+            "name": "Memory",
+          "description": "Please take cores of CPU into account",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 50.60
+              },
+              {
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              },
+              {
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              }
+              ]
+          },
+          {
+            "name": "Storage",
+            "description": "3 slots available:\nup to 2x internal M.2 Storage,\n1x internal Storage with 2,5 in",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "256GB M.2 2280 NVMe SSD",
+                  "price": 50.60
+              },
+              {
+                  "name": "512GB M.2 2280 NVMe SSD",
+                  "price": 101.20
+              },
+              {
+                  "name": "1TB M.2 2280 NVMe SSD",
+                  "price": 202.40
+              }
+              ]
+          },
+          {
+            "name": "Interfaces",
+            "description": "",
+            "options": [
+              {
+                  "name": " 4xUSB -A 10 Gbit/s / 2x DP / 1x USB -C / Audio/ RJ-45",
+                  "price": 0.0
+              }
+              ]
+          },
+          {
+            "name": "Graphics",
+            "description": "1 slots available onboard graphic card\nONLY available with iCore CPU ",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "Intel UHD Graphics 750",
+                  "price": 50.60
+              },
+              {
+                  "name": "NVIDIA GeForce RTX 3060 12GB GDDR6",
+                  "price": 101.20
+              },
+              {
+                  "name": "NVIDIA GeForce RTX 3070 8GB GDDR6",
+                  "price": 202.40
+              }
+              ]
+          },
+          {
+            "name": "Keyboards",
+            "description": "",
+            "options": [
+              {
+                  "name": "HP USB 320K Keyboard GR (incl. in base unit)",
+                  "price": 0.0
+              },
+              {
+                  "name": "No Keyboard",
+                  "price": -6.35
+              },
+                {
+                    "name": "HP USB Business Slim Wired SmartCard CCID Keyboard",
+                    "price": 11.37
+                },
+                {
+                    "name": "HP 125 Black Wired Keyboard",
+                    "price": -0.69
+                }
+                ]
+              
+          },
+          
+          {
+            "name": "Warranty",
+            "description": "Select warranty",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "3 Year Onsite Warranty",
+                  "price": 50.60
+              },
+              {
+                  "name": "5 Year Onsite Warranty",
+                  "price": 101.20
+              }
+              ]
+          }
+            ]   
+        },
+        {
+            "title": "Product 1",
+        "imagePath": "assets/images/pc-asset.jpg",
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08109685",
+        "screens": [
+            {
+              "name": "Écran 1",
+              "number": 1,
+              "price": 10.0
+            },
+            {
+              "name": "Écran 2",
+              "number": 2,
+              "price": 20.0
+            },
+            {
+              "name": "Écran 3",
+              "number": 3,
+              "price": 30.0
+            }
+          ],
+        "categories": [
+          {
+            "name": "CPU / Processor",
+            "description": "One CPU",
+            "options": [
+              {
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
+                  "price": 142.0
+              },
+              {
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
+                  "price": 196.0
+                },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
+              {
+                  "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
+                  "price": 325.00
+              }
+            ]
+          },
+          {
+            "name": "Operating System",
+            "description": "Please take cores of CPU into account",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "Windows 10 Pro 64-bit",
+                  "price": 50.60
+              },
+              {
+                  "name": "Windows 11 Pro 64-bit",
+                  "price": 101.20
+              }
+              ]
+          },
+          {
+            "name": "Memory",
+          "description": "Please take cores of CPU into account",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 50.60
+              },
+              {
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              },
+              {
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              }
+              ]
+          },
+          {
+            "name": "Storage",
+            "description": "3 slots available:\nup to 2x internal M.2 Storage,\n1x internal Storage with 2,5 in",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "256GB M.2 2280 NVMe SSD",
+                  "price": 50.60
+              },
+              {
+                  "name": "512GB M.2 2280 NVMe SSD",
+                  "price": 101.20
+              },
+              {
+                  "name": "1TB M.2 2280 NVMe SSD",
+                  "price": 202.40
+              }
+              ]
+          },
+          {
+            "name": "Interfaces",
+            "description": "",
+            "options": [
+              {
+                  "name": " 4xUSB -A 10 Gbit/s / 2x DP / 1x USB -C / Audio/ RJ-45",
+                  "price": 0.0
+              }
+              ]
+          },
+          {
+            "name": "Graphics",
+            "description": "1 slots available onboard graphic card\nONLY available with iCore CPU ",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "Intel UHD Graphics 750",
+                  "price": 50.60
+              },
+              {
+                  "name": "NVIDIA GeForce RTX 3060 12GB GDDR6",
+                  "price": 101.20
+              },
+              {
+                  "name": "NVIDIA GeForce RTX 3070 8GB GDDR6",
+                  "price": 202.40
+              }
+              ]
+          },
+          {
+            "name": "Keyboards",
+            "description": "",
+            "options": [
+              {
+                  "name": "HP USB 320K Keyboard GR (incl. in base unit)",
+                  "price": 0.0
+              },
+              {
+                  "name": "No Keyboard",
+                  "price": -6.35
+              },
+                {
+                    "name": "HP USB Business Slim Wired SmartCard CCID Keyboard",
+                    "price": 11.37
+                },
+                {
+                    "name": "HP 125 Black Wired Keyboard",
                     "price": -0.69
                 }
                 ]
@@ -180,20 +584,20 @@
       {
         "title": "Product 1",
         "imagePath": "assets/images/pc-asset.jpg",
-        "link": "https://github.com/neiviv-dev",
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08109685",
         "screens": [
             {
-              "name": "Screen 1",
+              "name": "Écran 1",
               "number": 1,
               "price": 10.0
             },
             {
-              "name": "Screen 2",
+              "name": "Écran 2",
               "number": 2,
               "price": 20.0
             },
             {
-              "name": "Screen 3",
+              "name": "Écran 3",
               "number": 3,
               "price": 30.0
             }
@@ -204,13 +608,29 @@
             "description": "One CPU",
             "options": [
               {
-                  "name": "Intel Core i3",
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
                   "price": 142.0
               },
               {
-                  "name": "Intel Core i5",
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
                   "price": 196.0
                 },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
               {
                   "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
                   "price": 325.00
@@ -244,15 +664,15 @@
                   "price": 0.0
               },
               {
-                  "name": "8GB (1x8GB) DDR5 4800 ",
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 50.60
               },
               {
-                  "name": "16GB (2x8GB) DDR5 4800 ",
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               },
               {
-                  "name": "16GB (1x16GB) DDR5 4800 ",
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               }
               ]
@@ -316,7 +736,7 @@
             "description": "",
             "options": [
               {
-                  "name": "Keyboard GR (incl. in base unit)",
+                  "name": "HP USB 320K Keyboard GR (incl. in base unit)",
                   "price": 0.0
               },
               {
@@ -324,11 +744,11 @@
                   "price": -6.35
               },
                 {
-                    "name": "RGB Keyboard",
+                    "name": "HP USB Business Slim Wired SmartCard CCID Keyboard",
                     "price": 11.37
                 },
                 {
-                    "name": "Wired Keyboard",
+                    "name": "HP 125 Black Wired Keyboard",
                     "price": -0.69
                 }
                 ]
@@ -354,23 +774,999 @@
               ]
           }
           ]
-      },{
-        "title": "Product 1",
+      },
+      
+      {
+      
+        "title": "HP Z2 MIini G9 WKS",
         "imagePath": "assets/images/pc-asset.jpg",
-        "link": "https://github.com/neiviv-dev",
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08109685",
         "screens": [
             {
-              "name": "Screen 1",
+              "name": "HP Z24n G3 24-inch Display",
+              "number": 1,
+              "price": 192.0
+            },
+            {
+              "name": "HP 24f G3 23.8-inch Display",
+              "number": 2,
+              "price": 183.0
+            },
+            {
+              "name": "HP Z27u G3 27-inch Display",
+              "number": 3,
+              "price": 289.0
+            },
+            {
+                "name": "HP Z27k G3 4k USB-C",
+                "number": 4,
+                "price": 395.11
+            }
+          ],
+        "categories": [
+
+          {
+            "name": "Basic Configuration",
+            "description": "Select a processor",
+            "options":[
+                {
+                    "name":"HP Z2 Mini Base Unit G9 P IDS\nOS Localization\nHP Linux-ready\nOperating System Load to M.2\nHP USB 320K Keyboard\nHP Wired 320M Mouse\nHP TPM Disabled\n3/3/3 (material/labor/onsite) Mini Warranty\nNo Load Flex Port\nC13 1.83m Sticker Conventional Desktop Power Cord\n280W Std 7.4mm PFC Smart (3-pin) AC Adapter\nNo Adapters Needed\nSingle Unit (Mini) Packaging\nHP Z2 Mini G9 Country Kit\nHP Packaging Tag Service w/SN and MAC1 and MAC2 and UUID details\nHP Chassis Tag Service w/SN and MAC1 and UUID details\nHP Chassis Tag w/SN and MAC1 and UUID\nHP Packaging Tag w/SN and MAC1 and MAC2 and UUID\nHP Account Management Support\nHP Delivery Service (Door/Dock) WS ",
+                    "price": 340.0
+                }
+            ]
+          },
+          {
+            "name": "Processor",
+            "description": "Select a processor",
+            "options": [
+              {
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
+                  "price": 142.0
+              },
+              {
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
+                  "price": 196.0
+                },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
+              {
+                  "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
+                  "price": 325.00
+              }
+            ]
+          },
+          {
+            "name": "Operating System",
+            "description": "Select operating system",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "Windows 10 Pro 64-bit",
+                  "price": 50.60
+              },
+              {
+                  "name": "Windows 11 Pro 64-bit",
+                  "price": 101.20
+              }
+              ]
+          },
+          {
+            "name": "Memory",
+          "description": "Please take cores of CPU into account",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 50.60
+              },
+              {
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              },
+              {
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              }
+              ]
+          },
+          {
+            "name": "",
+          "description": "",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 50.60
+              },
+              {
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              },
+              {
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              }
+              ]
+          },
+          {
+            "name": "M.2 Storage",
+            "description": "3 slots available:\nup to 2x internal M.2 Storage,\n1x internal Storage with 2,5 in",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "256GB M.2 2280 NVMe SSD",
+                  "price": 50.60
+              },
+              {
+                  "name": "512GB M.2 2280 NVMe SSD",
+                  "price": 101.20
+              },
+              {
+                  "name": "1TB M.2 2280 NVMe SSD",
+                  "price": 202.40
+              }
+              ]
+          },
+          {
+            "name": "&",
+            "description": "",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "256GB M.2 2280 NVMe SSD",
+                  "price": 50.60
+              },
+              {
+                  "name": "512GB M.2 2280 NVMe SSD",
+                  "price": 101.20
+              },
+              {
+                  "name": "1TB M.2 2280 NVMe SSD",
+                  "price": 202.40
+              }
+              ]
+          },
+          {
+            "name": "Internal Storage",
+            "description": "",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "256GB M.2 2280 NVMe SSD",
+                  "price": 50.60
+              },
+              {
+                  "name": "512GB M.2 2280 NVMe SSD",
+                  "price": 101.20
+              },
+              {
+                  "name": "1TB M.2 2280 NVMe SSD",
+                  "price": 202.40
+              }
+              ]
+          },
+          {
+            "name": "Interfaces",
+            "description": "",
+            "options": [
+              {
+                  "name": " 4xUSB -A 10 Gbit/s / 2x DP / 1x USB -C / Audio/ RJ-45",
+                  "price": 0.0
+              }
+              ]
+          },
+          {
+            "name": "Graphics",
+            "description": "1 slots available onboard graphic card \nONLY available with iCore CPU",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "NVIDIA T400 4 GB 3mDP Graphics",
+                  "price": 91.00
+              },
+              {
+                  "name": "NVIDIA T1000 8 GB 4mDP Graphics",
+                  "price": 316.00
+              },
+              {
+                  "name": "NVIDIA RTX A2000 12 GB GDDR6 4mDP Graphic",
+                  "price": 470.78 
+             }
+              ]
+          },
+          {
+            "name": "Keyboard",
+            "description": "",
+            "options": [
+
+                {
+                    "name": "HP USB 320K Keyboard GR (incl. in base unit)",
+                    "price": 0.0
+                },
+              {
+                  "name": "No Keyboard",
+                  "price": -6.35
+              },
+              {
+                  "name": "HP USB Business Slim Wired SmartCard CCID Keyboard",
+                  "price": 11.37
+              },
+              {
+                  "name": "HP 125 Black Wired Keyboard",
+                  "price": -0.69
+              }
+              ]
+          },
+          {
+            "name": "Mouse",
+            "description": "",
+            "options": [
+
+                {
+                    "name": "HP USB 320K Keyboard GR (incl. in base unit)",
+                    "price": 0.0
+                },
+              {
+                  "name": "No Keyboard",
+                  "price": -6.35
+              },
+              {
+                  "name": "HP USB Business Slim Wired SmartCard CCID Keyboard",
+                  "price": 11.37
+              },
+              {
+                  "name": "HP 125 Black Wired Keyboard",
+                  "price": -0.69
+              }
+              ]
+          },
+          {
+            "name": "Asset tagging",
+            "description": "incl. in base unit",
+            "options": [
+
+                {
+                    "name": "Standard Asset Tagging",
+                    "price": 0.0
+                }
+              ]
+          },
+          {
+            "name": "Asset tagging",
+            "description": "incl. in base unit",
+            "options": [
+
+                {
+                    "name": "Standard Asset Tagging",
+                    "price": 0.0
+                }
+              ]
+          },
+
+          {
+            "name": "Power Supply",
+            "description": "",
+            "options": [
+
+                {
+                    "name": "280 W",
+                    "price": 0.0
+                }
+              ]
+          },
+          
+          {
+            "name": "Warranty",
+            "description": "Select warranty",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "3 Year Onsite Warranty",
+                  "price": 50.60
+              },
+              {
+                  "name": "5 Year Onsite Warranty",
+                  "price": 101.20
+              }
+              ]
+          }
+          ]
+      },
+      {
+        "title": "HP Z2 SFF G9 WKS",
+      "imagePath": "assets/images/pc-asset.jpg",
+      "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08111505",
+      "screens": [
+        {
+          "name": "Écran 1",
+          "number": 1,
+          "price": 10.0
+        },
+        {
+          "name": "Écran 2",
+          "number": 2,
+          "price": 20.0
+        },
+        {
+          "name": "Écran 3",
+          "number": 3,
+          "price": 30.0
+        }
+      ],
+        "categories": [
+          {
+            "name": "Processor",
+            "description": "Select a processor",
+            "options": [
+              {
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
+                  "price": 142.0
+              },
+              {
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
+                  "price": 196.0
+                },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
+              {
+                  "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
+                  "price": 325.00
+              }
+            ]
+          },
+          {
+            "name": "Memory",
+          "description": "Select memory",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 50.60
+              },
+              {
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              },
+              {
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              }
+              ]
+          },
+          {
+            "name": "Storage",
+            "description": "Select storage",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "256GB M.2 2280 NVMe SSD",
+                  "price": 50.60
+              },
+              {
+                  "name": "512GB M.2 2280 NVMe SSD",
+                  "price": 101.20
+              },
+              {
+                  "name": "1TB M.2 2280 NVMe SSD",
+                  "price": 202.40
+              }
+              ]
+          },
+          {
+            "name": "Graphics",
+            "description": "Select graphics",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "Intel UHD Graphics 750",
+                  "price": 50.60
+              },
+              {
+                  "name": "NVIDIA GeForce RTX 3060 12GB GDDR6",
+                  "price": 101.20
+              },
+              {
+                  "name": "NVIDIA GeForce RTX 3070 8GB GDDR6",
+                  "price": 202.40
+              }
+              ]
+          },
+          {
+            "name": "Operating System",
+            "description": "Select operating system",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "Windows 10 Pro 64-bit",
+                  "price": 50.60
+              },
+              {
+                  "name": "Windows 11 Pro 64-bit",
+                  "price": 101.20
+              }
+              ]
+          },
+          {
+            "name": "Warranty",
+            "description": "Select warranty",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "3 Year Onsite Warranty",
+                  "price": 50.60
+              },
+              {
+                  "name": "5 Year Onsite Warranty",
+                  "price": 101.20
+              }
+              ]
+          }
+          ]
+      },
+      {
+        "title": "HP Z2 Tower G9 WKS",
+        "imagePath": "assets/images/pc-asset.jpg",
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08109687",
+        "screens": [
+            {
+              "name": "Écran 1",
               "number": 1,
               "price": 10.0
             },
             {
-              "name": "Screen 2",
+              "name": "Écran 2",
               "number": 2,
               "price": 20.0
             },
             {
-              "name": "Screen 3",
+              "name": "Écran 3",
+              "number": 3,
+              "price": 30.0
+            }
+          ],
+        "categories": [
+          {
+            "name": "Processor",
+            "description": "Select a processor",
+            "options": [
+              {
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
+                  "price": 142.0
+              },
+              {
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
+                  "price": 196.0
+                },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
+              {
+                  "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
+                  "price": 325.00
+              }
+            ]
+          },
+          {
+            "name": "Memory",
+          "description": "Select memory",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 50.60
+              },
+              {
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              },
+              {
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              }
+              ]
+          },
+          {
+            "name": "Storage",
+            "description": "Select storage",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "256GB M.2 2280 NVMe SSD",
+                  "price": 50.60
+              },
+              {
+                  "name": "512GB M.2 2280 NVMe SSD",
+                  "price": 101.20
+              },
+              {
+                  "name": "1TB M.2 2280 NVMe SSD",
+                  "price": 202.40
+              }
+              ]
+          },
+          {
+            "name": "Graphics",
+            "description": "Select graphics",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "Intel UHD Graphics 750",
+                  "price": 50.60
+              },
+              {
+                  "name": "NVIDIA GeForce RTX 3060 12GB GDDR6",
+                  "price": 101.20
+              },
+              {
+                  "name": "NVIDIA GeForce RTX 3070 8GB GDDR6",
+                  "price": 202.40
+              }
+              ]
+          },
+          {
+            "name": "Operating System",
+            "description": "Select operating system",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "Windows 10 Pro 64-bit",
+                  "price": 50.60
+              },
+              {
+                  "name": "Windows 11 Pro 64-bit",
+                  "price": 101.20
+              }
+              ]
+          },
+          {
+            "name": "Warranty",
+            "description": "Select warranty",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "3 Year Onsite Warranty",
+                  "price": 50.60
+              },
+              {
+                  "name": "5 Year Onsite Warranty",
+                  "price": 101.20
+              }
+              ]
+          }
+          ]
+      },
+      {
+        "title": "HP Z4 G4 WKS",
+        "imagePath": "assets/images/pc-asset.jpg",
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c05527757",
+        "screens": [
+            {
+              "name": "Écran 1",
+              "number": 1,
+              "price": 10.0
+            },
+            {
+              "name": "Écran 2",
+              "number": 2,
+              "price": 20.0
+            },
+            {
+              "name": "Écran 3",
+              "number": 3,
+              "price": 30.0
+            }
+          ],
+        "categories": [
+          {
+            "name": "Processor",
+            "description": "Select a processor",
+            "options": [
+              {
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
+                  "price": 142.0
+              },
+              {
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
+                  "price": 196.0
+                },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
+              {
+                  "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
+                  "price": 325.00
+              }
+            ]
+          },
+          {
+            "name": "Memory",
+          "description": "Select memory",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 50.60
+              },
+              {
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              },
+              {
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              }
+              ]
+          },
+          {
+            "name": "Storage",
+            "description": "Select storage",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "256GB M.2 2280 NVMe SSD",
+                  "price": 50.60
+              },
+              {
+                  "name": "512GB M.2 2280 NVMe SSD",
+                  "price": 101.20
+              },
+              {
+                  "name": "1TB M.2 2280 NVMe SSD",
+                  "price": 202.40
+              }
+              ]
+          },
+          {
+            "name": "Graphics",
+            "description": "Select graphics",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "Intel UHD Graphics 750",
+                  "price": 50.60
+              },
+              {
+                  "name": "NVIDIA GeForce RTX 3060 12GB GDDR6",
+                  "price": 101.20
+              },
+              {
+                  "name": "NVIDIA GeForce RTX 3070 8GB GDDR6",
+                  "price": 202.40
+              }
+              ]
+          },
+          {
+            "name": "Operating System",
+            "description": "Select operating system",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "Windows 10 Pro 64-bit",
+                  "price": 50.60
+              },
+              {
+                  "name": "Windows 11 Pro 64-bit",
+                  "price": 101.20
+              }
+              ]
+          },
+          {
+            "name": "Warranty",
+            "description": "Select warranty",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "3 Year Onsite Warranty",
+                  "price": 50.60
+              },
+              {
+                  "name": "5 Year Onsite Warranty",
+                  "price": 101.20
+              }
+              ]
+          }
+          ]
+      },
+      {
+        "title": "HP Z8 G4 WKS",
+        "imagePath": "assets/images/pc-asset.jpg",
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c05527763",
+        "screens": [
+            {
+              "name": "Écran 1",
+              "number": 1,
+              "price": 10.0
+            },
+            {
+              "name": "Écran 2",
+              "number": 2,
+              "price": 20.0
+            },
+            {
+              "name": "Écran 3",
+              "number": 3,
+              "price": 30.0
+            }
+          ],
+        "categories": [
+          {
+            "name": "Processor",
+            "description": "Select a processor",
+            "options": [
+              {
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
+                  "price": 142.0
+              },
+              {
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
+                  "price": 196.0
+                },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
+              {
+                  "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
+                  "price": 325.00
+              }
+            ]
+          },
+          {
+            "name": "Memory",
+          "description": "Select memory",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 50.60
+              },
+              {
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              },
+              {
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              }
+              ]
+          },
+          {
+            "name": "Storage",
+            "description": "Select storage",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "256GB M.2 2280 NVMe SSD",
+                  "price": 50.60
+              },
+              {
+                  "name": "512GB M.2 2280 NVMe SSD",
+                  "price": 101.20
+              },
+              {
+                  "name": "1TB M.2 2280 NVMe SSD",
+                  "price": 202.40
+              }
+              ]
+          },
+          {
+            "name": "Graphics",
+            "description": "Select graphics",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "Intel UHD Graphics 750",
+                  "price": 50.60
+              },
+              {
+                  "name": "NVIDIA GeForce RTX 3060 12GB GDDR6",
+                  "price": 101.20
+              },
+              {
+                  "name": "NVIDIA GeForce RTX 3070 8GB GDDR6",
+                  "price": 202.40
+              }
+              ]
+          },
+          {
+            "name": "Operating System",
+            "description": "Select operating system",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "Windows 10 Pro 64-bit",
+                  "price": 50.60
+              },
+              {
+                  "name": "Windows 11 Pro 64-bit",
+                  "price": 101.20
+              }
+              ]
+          },
+          {
+            "name": "Warranty",
+            "description": "Select warranty",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "3 Year Onsite Warranty",
+                  "price": 50.60
+              },
+              {
+                  "name": "5 Year Onsite Warranty",
+                  "price": 101.20
+              }
+              ]
+          }
+          ]
+      },
+      {
+        "title": "Product 1",
+        "imagePath": "assets/images/pc-asset.jpg",
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08109685",
+        "screens": [
+            {
+              "name": "Écran 1",
+              "number": 1,
+              "price": 10.0
+            },
+            {
+              "name": "Écran 2",
+              "number": 2,
+              "price": 20.0
+            },
+            {
+              "name": "Écran 3",
               "number": 3,
               "price": 30.0
             }
@@ -381,13 +1777,29 @@
             "description": "One CPU",
             "options": [
               {
-                  "name": "Intel Core i3",
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
                   "price": 142.0
               },
               {
-                  "name": "Intel Core i5",
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
                   "price": 196.0
                 },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
               {
                   "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
                   "price": 325.00
@@ -421,15 +1833,15 @@
                   "price": 0.0
               },
               {
-                  "name": "8GB (1x8GB) DDR5 4800 ",
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 50.60
               },
               {
-                  "name": "16GB (2x8GB) DDR5 4800 ",
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               },
               {
-                  "name": "16GB (1x16GB) DDR5 4800 ",
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               }
               ]
@@ -493,7 +1905,7 @@
             "description": "",
             "options": [
               {
-                  "name": "Keyboard GR (incl. in base unit)",
+                  "name": "HP USB 320K Keyboard GR (incl. in base unit)",
                   "price": 0.0
               },
               {
@@ -501,11 +1913,11 @@
                   "price": -6.35
               },
                 {
-                    "name": "RGB Keyboard",
+                    "name": "HP USB Business Slim Wired SmartCard CCID Keyboard",
                     "price": 11.37
                 },
                 {
-                    "name": "Wired Keyboard",
+                    "name": "HP 125 Black Wired Keyboard",
                     "price": -0.69
                 }
                 ]
@@ -531,23 +1943,24 @@
               ]
           }
           ]
-      },{
-        "title": "Product 1",
+      },
+      {
+      "title": "Product 1",
         "imagePath": "assets/images/pc-asset.jpg",
-        "link": "https://github.com/neiviv-dev",
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08109685",
         "screens": [
             {
-              "name": "Screen 1",
+              "name": "Écran 1",
               "number": 1,
               "price": 10.0
             },
             {
-              "name": "Screen 2",
+              "name": "Écran 2",
               "number": 2,
               "price": 20.0
             },
             {
-              "name": "Screen 3",
+              "name": "Écran 3",
               "number": 3,
               "price": 30.0
             }
@@ -558,13 +1971,29 @@
             "description": "One CPU",
             "options": [
               {
-                  "name": "Intel Core i3",
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
                   "price": 142.0
               },
               {
-                  "name": "Intel Core i5",
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
                   "price": 196.0
                 },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
               {
                   "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
                   "price": 325.00
@@ -598,15 +2027,15 @@
                   "price": 0.0
               },
               {
-                  "name": "8GB (1x8GB) DDR5 4800 ",
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 50.60
               },
               {
-                  "name": "16GB (2x8GB) DDR5 4800 ",
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               },
               {
-                  "name": "16GB (1x16GB) DDR5 4800 ",
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               }
               ]
@@ -670,7 +2099,7 @@
             "description": "",
             "options": [
               {
-                  "name": "Keyboard GR (incl. in base unit)",
+                  "name": "HP USB 320K Keyboard GR (incl. in base unit)",
                   "price": 0.0
               },
               {
@@ -678,11 +2107,205 @@
                   "price": -6.35
               },
                 {
-                    "name": "RGB Keyboard",
+                    "name": "HP USB Business Slim Wired SmartCard CCID Keyboard",
                     "price": 11.37
                 },
                 {
-                    "name": "Wired Keyboard",
+                    "name": "HP 125 Black Wired Keyboard",
+                    "price": -0.69
+                }
+                ]
+              
+          },
+          
+          {
+            "name": "Warranty",
+            "description": "Select warranty",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "3 Year Onsite Warranty",
+                  "price": 50.60
+              },
+              {
+                  "name": "5 Year Onsite Warranty",
+                  "price": 101.20
+              }
+              ]
+          }
+            ]   
+        },
+        {
+            "title": "Product 1",
+        "imagePath": "assets/images/pc-asset.jpg",
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08109685",
+        "screens": [
+            {
+              "name": "Écran 1",
+              "number": 1,
+              "price": 10.0
+            },
+            {
+              "name": "Écran 2",
+              "number": 2,
+              "price": 20.0
+            },
+            {
+              "name": "Écran 3",
+              "number": 3,
+              "price": 30.0
+            }
+          ],
+        "categories": [
+          {
+            "name": "CPU / Processor",
+            "description": "One CPU",
+            "options": [
+              {
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
+                  "price": 142.0
+              },
+              {
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
+                  "price": 196.0
+                },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
+              {
+                  "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
+                  "price": 325.00
+              }
+            ]
+          },
+          {
+            "name": "Operating System",
+            "description": "Please take cores of CPU into account",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "Windows 10 Pro 64-bit",
+                  "price": 50.60
+              },
+              {
+                  "name": "Windows 11 Pro 64-bit",
+                  "price": 101.20
+              }
+              ]
+          },
+          {
+            "name": "Memory",
+          "description": "Please take cores of CPU into account",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 50.60
+              },
+              {
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              },
+              {
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
+                  "price": 101.20
+              }
+              ]
+          },
+          {
+            "name": "Storage",
+            "description": "3 slots available:\nup to 2x internal M.2 Storage,\n1x internal Storage with 2,5 in",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "256GB M.2 2280 NVMe SSD",
+                  "price": 50.60
+              },
+              {
+                  "name": "512GB M.2 2280 NVMe SSD",
+                  "price": 101.20
+              },
+              {
+                  "name": "1TB M.2 2280 NVMe SSD",
+                  "price": 202.40
+              }
+              ]
+          },
+          {
+            "name": "Interfaces",
+            "description": "",
+            "options": [
+              {
+                  "name": " 4xUSB -A 10 Gbit/s / 2x DP / 1x USB -C / Audio/ RJ-45",
+                  "price": 0.0
+              }
+              ]
+          },
+          {
+            "name": "Graphics",
+            "description": "1 slots available onboard graphic card\nONLY available with iCore CPU ",
+            "options": [
+              {
+                  "name": "None",
+                  "price": 0.0
+              },
+              {
+                  "name": "Intel UHD Graphics 750",
+                  "price": 50.60
+              },
+              {
+                  "name": "NVIDIA GeForce RTX 3060 12GB GDDR6",
+                  "price": 101.20
+              },
+              {
+                  "name": "NVIDIA GeForce RTX 3070 8GB GDDR6",
+                  "price": 202.40
+              }
+              ]
+          },
+          {
+            "name": "Keyboards",
+            "description": "",
+            "options": [
+              {
+                  "name": "HP USB 320K Keyboard GR (incl. in base unit)",
+                  "price": 0.0
+              },
+              {
+                  "name": "No Keyboard",
+                  "price": -6.35
+              },
+                {
+                    "name": "HP USB Business Slim Wired SmartCard CCID Keyboard",
+                    "price": 11.37
+                },
+                {
+                    "name": "HP 125 Black Wired Keyboard",
                     "price": -0.69
                 }
                 ]
@@ -708,23 +2331,24 @@
               ]
           }
           ]
-      },{
+      },
+      {
         "title": "Product 1",
         "imagePath": "assets/images/pc-asset.jpg",
-        "link": "https://github.com/neiviv-dev",
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08109685",
         "screens": [
             {
-              "name": "Screen 1",
+              "name": "Écran 1",
               "number": 1,
               "price": 10.0
             },
             {
-              "name": "Screen 2",
+              "name": "Écran 2",
               "number": 2,
               "price": 20.0
             },
             {
-              "name": "Screen 3",
+              "name": "Écran 3",
               "number": 3,
               "price": 30.0
             }
@@ -735,13 +2359,29 @@
             "description": "One CPU",
             "options": [
               {
-                  "name": "Intel Core i3",
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
                   "price": 142.0
               },
               {
-                  "name": "Intel Core i5",
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
                   "price": 196.0
                 },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
               {
                   "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
                   "price": 325.00
@@ -775,15 +2415,15 @@
                   "price": 0.0
               },
               {
-                  "name": "8GB (1x8GB) DDR5 4800 ",
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 50.60
               },
               {
-                  "name": "16GB (2x8GB) DDR5 4800 ",
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               },
               {
-                  "name": "16GB (1x16GB) DDR5 4800 ",
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               }
               ]
@@ -847,7 +2487,7 @@
             "description": "",
             "options": [
               {
-                  "name": "Keyboard GR (incl. in base unit)",
+                  "name": "HP USB 320K Keyboard GR (incl. in base unit)",
                   "price": 0.0
               },
               {
@@ -855,11 +2495,11 @@
                   "price": -6.35
               },
                 {
-                    "name": "RGB Keyboard",
+                    "name": "HP USB Business Slim Wired SmartCard CCID Keyboard",
                     "price": 11.37
                 },
                 {
-                    "name": "Wired Keyboard",
+                    "name": "HP 125 Black Wired Keyboard",
                     "price": -0.69
                 }
                 ]
@@ -885,40 +2525,59 @@
               ]
           }
           ]
-      },{
-        "title": "Product 1",
+      },
+      
+      {
+      
+        "title": "HP Z2 MIini G9 WKS",
         "imagePath": "assets/images/pc-asset.jpg",
-        "link": "https://github.com/neiviv-dev",
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08109685",
         "screens": [
             {
-              "name": "Screen 1",
+              "name": "Écran 1",
               "number": 1,
               "price": 10.0
             },
             {
-              "name": "Screen 2",
+              "name": "Écran 2",
               "number": 2,
               "price": 20.0
             },
             {
-              "name": "Screen 3",
+              "name": "Écran 3",
               "number": 3,
               "price": 30.0
             }
           ],
         "categories": [
           {
-            "name": "CPU / Processor",
-            "description": "One CPU",
+            "name": "Processor",
+            "description": "Select a processor",
             "options": [
               {
-                  "name": "Intel Core i3",
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
                   "price": 142.0
               },
               {
-                  "name": "Intel Core i5",
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
                   "price": 196.0
                 },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
               {
                   "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
                   "price": 325.00
@@ -926,48 +2585,30 @@
             ]
           },
           {
-            "name": "Operating System",
-            "description": "Please take cores of CPU into account",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "Windows 10 Pro 64-bit",
-                  "price": 50.60
-              },
-              {
-                  "name": "Windows 11 Pro 64-bit",
-                  "price": 101.20
-              }
-              ]
-          },
-          {
             "name": "Memory",
-          "description": "Please take cores of CPU into account",
+          "description": "Select memory",
             "options": [
               {
                   "name": "None",
                   "price": 0.0
               },
               {
-                  "name": "8GB (1x8GB) DDR5 4800 ",
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 50.60
               },
               {
-                  "name": "16GB (2x8GB) DDR5 4800 ",
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               },
               {
-                  "name": "16GB (1x16GB) DDR5 4800 ",
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               }
               ]
           },
           {
             "name": "Storage",
-            "description": "3 slots available:\nup to 2x internal M.2 Storage,\n1x internal Storage with 2,5 in",
+            "description": "Select storage",
             "options": [
               {
                   "name": "None",
@@ -988,18 +2629,8 @@
               ]
           },
           {
-            "name": "Interfaces",
-            "description": "",
-            "options": [
-              {
-                  "name": " 4xUSB -A 10 Gbit/s / 2x DP / 1x USB -C / Audio/ RJ-45",
-                  "price": 0.0
-              }
-              ]
-          },
-          {
             "name": "Graphics",
-            "description": "1 slots available onboard graphic card\nONLY available with iCore CPU ",
+            "description": "Select graphics",
             "options": [
               {
                   "name": "None",
@@ -1020,29 +2651,23 @@
               ]
           },
           {
-            "name": "Keyboards",
-            "description": "",
+            "name": "Operating System",
+            "description": "Select operating system",
             "options": [
               {
-                  "name": "Keyboard GR (incl. in base unit)",
+                  "name": "None",
                   "price": 0.0
               },
               {
-                  "name": "No Keyboard",
-                  "price": -6.35
+                  "name": "Windows 10 Pro 64-bit",
+                  "price": 50.60
               },
-                {
-                    "name": "RGB Keyboard",
-                    "price": 11.37
-                },
-                {
-                    "name": "Wired Keyboard",
-                    "price": -0.69
-                }
-                ]
-              
+              {
+                  "name": "Windows 11 Pro 64-bit",
+                  "price": 101.20
+              }
+              ]
           },
-          
           {
             "name": "Warranty",
             "description": "Select warranty",
@@ -1062,40 +2687,58 @@
               ]
           }
           ]
-      },{
-        "title": "Product 1",
+      },
+      {
+      
+        "title": "HP Z2 MIini G9 WKS",
         "imagePath": "assets/images/pc-asset.jpg",
-        "link": "https://github.com/neiviv-dev",
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08109685",
         "screens": [
             {
-              "name": "Screen 1",
+              "name": "Écran 1",
               "number": 1,
               "price": 10.0
             },
             {
-              "name": "Screen 2",
+              "name": "Écran 2",
               "number": 2,
               "price": 20.0
             },
             {
-              "name": "Screen 3",
+              "name": "Écran 3",
               "number": 3,
               "price": 30.0
             }
           ],
         "categories": [
           {
-            "name": "CPU / Processor",
-            "description": "One CPU",
+            "name": "Processor",
+            "description": "Select a processor",
             "options": [
               {
-                  "name": "Intel Core i3",
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
                   "price": 142.0
               },
               {
-                  "name": "Intel Core i5",
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
                   "price": 196.0
                 },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
               {
                   "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
                   "price": 325.00
@@ -1103,48 +2746,30 @@
             ]
           },
           {
-            "name": "Operating System",
-            "description": "Please take cores of CPU into account",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "Windows 10 Pro 64-bit",
-                  "price": 50.60
-              },
-              {
-                  "name": "Windows 11 Pro 64-bit",
-                  "price": 101.20
-              }
-              ]
-          },
-          {
             "name": "Memory",
-          "description": "Please take cores of CPU into account",
+          "description": "Select memory",
             "options": [
               {
                   "name": "None",
                   "price": 0.0
               },
               {
-                  "name": "8GB (1x8GB) DDR5 4800 ",
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 50.60
               },
               {
-                  "name": "16GB (2x8GB) DDR5 4800 ",
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               },
               {
-                  "name": "16GB (1x16GB) DDR5 4800 ",
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               }
               ]
           },
           {
             "name": "Storage",
-            "description": "3 slots available:\nup to 2x internal M.2 Storage,\n1x internal Storage with 2,5 in",
+            "description": "Select storage",
             "options": [
               {
                   "name": "None",
@@ -1165,18 +2790,8 @@
               ]
           },
           {
-            "name": "Interfaces",
-            "description": "",
-            "options": [
-              {
-                  "name": " 4xUSB -A 10 Gbit/s / 2x DP / 1x USB -C / Audio/ RJ-45",
-                  "price": 0.0
-              }
-              ]
-          },
-          {
             "name": "Graphics",
-            "description": "1 slots available onboard graphic card\nONLY available with iCore CPU ",
+            "description": "Select graphics",
             "options": [
               {
                   "name": "None",
@@ -1197,29 +2812,23 @@
               ]
           },
           {
-            "name": "Keyboards",
-            "description": "",
+            "name": "Operating System",
+            "description": "Select operating system",
             "options": [
               {
-                  "name": "Keyboard GR (incl. in base unit)",
+                  "name": "None",
                   "price": 0.0
               },
               {
-                  "name": "No Keyboard",
-                  "price": -6.35
+                  "name": "Windows 10 Pro 64-bit",
+                  "price": 50.60
               },
-                {
-                    "name": "RGB Keyboard",
-                    "price": 11.37
-                },
-                {
-                    "name": "Wired Keyboard",
-                    "price": -0.69
-                }
-                ]
-              
+              {
+                  "name": "Windows 11 Pro 64-bit",
+                  "price": 101.20
+              }
+              ]
           },
-          
           {
             "name": "Warranty",
             "description": "Select warranty",
@@ -1239,40 +2848,58 @@
               ]
           }
           ]
-      },{
-        "title": "Product 1",
+      },
+      {
+      
+        "title": "HP Z2 MIini G9 WKS",
         "imagePath": "assets/images/pc-asset.jpg",
-        "link": "https://github.com/neiviv-dev",
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08109685",
         "screens": [
             {
-              "name": "Screen 1",
+              "name": "Écran 1",
               "number": 1,
               "price": 10.0
             },
             {
-              "name": "Screen 2",
+              "name": "Écran 2",
               "number": 2,
               "price": 20.0
             },
             {
-              "name": "Screen 3",
+              "name": "Écran 3",
               "number": 3,
               "price": 30.0
             }
           ],
         "categories": [
           {
-            "name": "CPU / Processor",
-            "description": "One CPU",
+            "name": "Processor",
+            "description": "Select a processor",
             "options": [
               {
-                  "name": "Intel Core i3",
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
                   "price": 142.0
               },
               {
-                  "name": "Intel Core i5",
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
                   "price": 196.0
                 },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
               {
                   "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
                   "price": 325.00
@@ -1280,48 +2907,30 @@
             ]
           },
           {
-            "name": "Operating System",
-            "description": "Please take cores of CPU into account",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "Windows 10 Pro 64-bit",
-                  "price": 50.60
-              },
-              {
-                  "name": "Windows 11 Pro 64-bit",
-                  "price": 101.20
-              }
-              ]
-          },
-          {
             "name": "Memory",
-          "description": "Please take cores of CPU into account",
+          "description": "Select memory",
             "options": [
               {
                   "name": "None",
                   "price": 0.0
               },
               {
-                  "name": "8GB (1x8GB) DDR5 4800 ",
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 50.60
               },
               {
-                  "name": "16GB (2x8GB) DDR5 4800 ",
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               },
               {
-                  "name": "16GB (1x16GB) DDR5 4800 ",
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               }
               ]
           },
           {
             "name": "Storage",
-            "description": "3 slots available:\nup to 2x internal M.2 Storage,\n1x internal Storage with 2,5 in",
+            "description": "Select storage",
             "options": [
               {
                   "name": "None",
@@ -1342,18 +2951,8 @@
               ]
           },
           {
-            "name": "Interfaces",
-            "description": "",
-            "options": [
-              {
-                  "name": " 4xUSB -A 10 Gbit/s / 2x DP / 1x USB -C / Audio/ RJ-45",
-                  "price": 0.0
-              }
-              ]
-          },
-          {
             "name": "Graphics",
-            "description": "1 slots available onboard graphic card\nONLY available with iCore CPU ",
+            "description": "Select graphics",
             "options": [
               {
                   "name": "None",
@@ -1374,29 +2973,23 @@
               ]
           },
           {
-            "name": "Keyboards",
-            "description": "",
+            "name": "Operating System",
+            "description": "Select operating system",
             "options": [
               {
-                  "name": "Keyboard GR (incl. in base unit)",
+                  "name": "None",
                   "price": 0.0
               },
               {
-                  "name": "No Keyboard",
-                  "price": -6.35
+                  "name": "Windows 10 Pro 64-bit",
+                  "price": 50.60
               },
-                {
-                    "name": "RGB Keyboard",
-                    "price": 11.37
-                },
-                {
-                    "name": "Wired Keyboard",
-                    "price": -0.69
-                }
-                ]
-              
+              {
+                  "name": "Windows 11 Pro 64-bit",
+                  "price": 101.20
+              }
+              ]
           },
-          
           {
             "name": "Warranty",
             "description": "Select warranty",
@@ -1416,40 +3009,58 @@
               ]
           }
           ]
-      },{
-        "title": "Product 1",
+      },
+      {
+      
+        "title": "HP Z2 MIini G9 WKS",
         "imagePath": "assets/images/pc-asset.jpg",
-        "link": "https://github.com/neiviv-dev",
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08109685",
         "screens": [
             {
-              "name": "Screen 1",
+              "name": "Écran 1",
               "number": 1,
               "price": 10.0
             },
             {
-              "name": "Screen 2",
+              "name": "Écran 2",
               "number": 2,
               "price": 20.0
             },
             {
-              "name": "Screen 3",
+              "name": "Écran 3",
               "number": 3,
               "price": 30.0
             }
           ],
         "categories": [
           {
-            "name": "CPU / Processor",
-            "description": "One CPU",
+            "name": "Processor",
+            "description": "Select a processor",
             "options": [
               {
-                  "name": "Intel Core i3",
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
                   "price": 142.0
               },
               {
-                  "name": "Intel Core i5",
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
                   "price": 196.0
                 },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
               {
                   "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
                   "price": 325.00
@@ -1457,48 +3068,30 @@
             ]
           },
           {
-            "name": "Operating System",
-            "description": "Please take cores of CPU into account",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "Windows 10 Pro 64-bit",
-                  "price": 50.60
-              },
-              {
-                  "name": "Windows 11 Pro 64-bit",
-                  "price": 101.20
-              }
-              ]
-          },
-          {
             "name": "Memory",
-          "description": "Please take cores of CPU into account",
+          "description": "Select memory",
             "options": [
               {
                   "name": "None",
                   "price": 0.0
               },
               {
-                  "name": "8GB (1x8GB) DDR5 4800 ",
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 50.60
               },
               {
-                  "name": "16GB (2x8GB) DDR5 4800 ",
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               },
               {
-                  "name": "16GB (1x16GB) DDR5 4800 ",
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               }
               ]
           },
           {
             "name": "Storage",
-            "description": "3 slots available:\nup to 2x internal M.2 Storage,\n1x internal Storage with 2,5 in",
+            "description": "Select storage",
             "options": [
               {
                   "name": "None",
@@ -1519,18 +3112,8 @@
               ]
           },
           {
-            "name": "Interfaces",
-            "description": "",
-            "options": [
-              {
-                  "name": " 4xUSB -A 10 Gbit/s / 2x DP / 1x USB -C / Audio/ RJ-45",
-                  "price": 0.0
-              }
-              ]
-          },
-          {
             "name": "Graphics",
-            "description": "1 slots available onboard graphic card\nONLY available with iCore CPU ",
+            "description": "Select graphics",
             "options": [
               {
                   "name": "None",
@@ -1551,29 +3134,23 @@
               ]
           },
           {
-            "name": "Keyboards",
-            "description": "",
+            "name": "Operating System",
+            "description": "Select operating system",
             "options": [
               {
-                  "name": "Keyboard GR (incl. in base unit)",
+                  "name": "None",
                   "price": 0.0
               },
               {
-                  "name": "No Keyboard",
-                  "price": -6.35
+                  "name": "Windows 10 Pro 64-bit",
+                  "price": 50.60
               },
-                {
-                    "name": "RGB Keyboard",
-                    "price": 11.37
-                },
-                {
-                    "name": "Wired Keyboard",
-                    "price": -0.69
-                }
-                ]
-              
+              {
+                  "name": "Windows 11 Pro 64-bit",
+                  "price": 101.20
+              }
+              ]
           },
-          
           {
             "name": "Warranty",
             "description": "Select warranty",
@@ -1593,40 +3170,58 @@
               ]
           }
           ]
-      },{
-        "title": "Product 1",
+      },
+      {
+      
+        "title": "HP Z2 MIini G9 WKS",
         "imagePath": "assets/images/pc-asset.jpg",
-        "link": "https://github.com/neiviv-dev",
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08109685",
         "screens": [
             {
-              "name": "Screen 1",
+              "name": "Écran 1",
               "number": 1,
               "price": 10.0
             },
             {
-              "name": "Screen 2",
+              "name": "Écran 2",
               "number": 2,
               "price": 20.0
             },
             {
-              "name": "Screen 3",
+              "name": "Écran 3",
               "number": 3,
               "price": 30.0
             }
           ],
         "categories": [
           {
-            "name": "CPU / Processor",
-            "description": "One CPU",
+            "name": "Processor",
+            "description": "Select a processor",
             "options": [
               {
-                  "name": "Intel Core i3",
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
                   "price": 142.0
               },
               {
-                  "name": "Intel Core i5",
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
                   "price": 196.0
                 },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
               {
                   "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
                   "price": 325.00
@@ -1634,48 +3229,30 @@
             ]
           },
           {
-            "name": "Operating System",
-            "description": "Please take cores of CPU into account",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "Windows 10 Pro 64-bit",
-                  "price": 50.60
-              },
-              {
-                  "name": "Windows 11 Pro 64-bit",
-                  "price": 101.20
-              }
-              ]
-          },
-          {
             "name": "Memory",
-          "description": "Please take cores of CPU into account",
+          "description": "Select memory",
             "options": [
               {
                   "name": "None",
                   "price": 0.0
               },
               {
-                  "name": "8GB (1x8GB) DDR5 4800 ",
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 50.60
               },
               {
-                  "name": "16GB (2x8GB) DDR5 4800 ",
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               },
               {
-                  "name": "16GB (1x16GB) DDR5 4800 ",
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               }
               ]
           },
           {
             "name": "Storage",
-            "description": "3 slots available:\nup to 2x internal M.2 Storage,\n1x internal Storage with 2,5 in",
+            "description": "Select storage",
             "options": [
               {
                   "name": "None",
@@ -1696,18 +3273,8 @@
               ]
           },
           {
-            "name": "Interfaces",
-            "description": "",
-            "options": [
-              {
-                  "name": " 4xUSB -A 10 Gbit/s / 2x DP / 1x USB -C / Audio/ RJ-45",
-                  "price": 0.0
-              }
-              ]
-          },
-          {
             "name": "Graphics",
-            "description": "1 slots available onboard graphic card\nONLY available with iCore CPU ",
+            "description": "Select graphics",
             "options": [
               {
                   "name": "None",
@@ -1728,29 +3295,23 @@
               ]
           },
           {
-            "name": "Keyboards",
-            "description": "",
+            "name": "Operating System",
+            "description": "Select operating system",
             "options": [
               {
-                  "name": "Keyboard GR (incl. in base unit)",
+                  "name": "None",
                   "price": 0.0
               },
               {
-                  "name": "No Keyboard",
-                  "price": -6.35
+                  "name": "Windows 10 Pro 64-bit",
+                  "price": 50.60
               },
-                {
-                    "name": "RGB Keyboard",
-                    "price": 11.37
-                },
-                {
-                    "name": "Wired Keyboard",
-                    "price": -0.69
-                }
-                ]
-              
+              {
+                  "name": "Windows 11 Pro 64-bit",
+                  "price": 101.20
+              }
+              ]
           },
-          
           {
             "name": "Warranty",
             "description": "Select warranty",
@@ -1770,40 +3331,58 @@
               ]
           }
           ]
-      },{
-        "title": "Product 1",
+      },
+      {
+      
+        "title": "HP Z2 MIini G9 WKS",
         "imagePath": "assets/images/pc-asset.jpg",
-        "link": "https://github.com/neiviv-dev",
+        "link": "https://www8.hp.com/h20195/v2/GetDocument.aspx?docname=c08109685",
         "screens": [
             {
-              "name": "Screen 1",
+              "name": "Écran 1",
               "number": 1,
               "price": 10.0
             },
             {
-              "name": "Screen 2",
+              "name": "Écran 2",
               "number": 2,
               "price": 20.0
             },
             {
-              "name": "Screen 3",
+              "name": "Écran 3",
               "number": 3,
               "price": 30.0
             }
           ],
         "categories": [
           {
-            "name": "CPU / Processor",
-            "description": "One CPU",
+            "name": "Processor",
+            "description": "Select a processor",
             "options": [
               {
-                  "name": "Intel Core i3",
+                  "name": "Intel Core i3-12100 3.30G 4.30G 12MB 4 cores 60W ",
                   "price": 142.0
               },
               {
-                  "name": "Intel Core i5",
+                  "name": "Intel Core i3-12300 3.50G 12MB 4 cores 60W",
+                  "price": 144.0
+              },
+              {
+                  "name": "Intel Core i5-12400 2.50G 18MB 6 cores 65W",
                   "price": 196.0
                 },
+                {
+                  "name": "Intel Core i5-12500 3.00G 18MB 6 cores 65W ECC",
+                  "price": 209.18
+              },
+              {
+                  "name": "Intel Core i5-12600 3.30G 18MB 6 cores 65W ECC",
+                  "price": 223.00
+              },
+              {
+                  "name": "Intel Core i5-12600K 3.70G 20MB 10 cores 125W",
+                  "price": 302.75
+              },
               {
                   "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
                   "price": 325.00
@@ -1811,48 +3390,30 @@
             ]
           },
           {
-            "name": "Operating System",
-            "description": "Please take cores of CPU into account",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "Windows 10 Pro 64-bit",
-                  "price": 50.60
-              },
-              {
-                  "name": "Windows 11 Pro 64-bit",
-                  "price": 101.20
-              }
-              ]
-          },
-          {
             "name": "Memory",
-          "description": "Please take cores of CPU into account",
+          "description": "Select memory",
             "options": [
               {
                   "name": "None",
                   "price": 0.0
               },
               {
-                  "name": "8GB (1x8GB) DDR5 4800 ",
+                  "name": "8GB (1x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 50.60
               },
               {
-                  "name": "16GB (2x8GB) DDR5 4800 ",
+                  "name": "16GB (2x8GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               },
               {
-                  "name": "16GB (1x16GB) DDR5 4800 ",
+                  "name": "16GB (1x16GB) DDR5 4800 SODIMM NECC Memory",
                   "price": 101.20
               }
               ]
           },
           {
             "name": "Storage",
-            "description": "3 slots available:\nup to 2x internal M.2 Storage,\n1x internal Storage with 2,5 in",
+            "description": "Select storage",
             "options": [
               {
                   "name": "None",
@@ -1873,18 +3434,8 @@
               ]
           },
           {
-            "name": "Interfaces",
-            "description": "",
-            "options": [
-              {
-                  "name": " 4xUSB -A 10 Gbit/s / 2x DP / 1x USB -C / Audio/ RJ-45",
-                  "price": 0.0
-              }
-              ]
-          },
-          {
             "name": "Graphics",
-            "description": "1 slots available onboard graphic card\nONLY available with iCore CPU ",
+            "description": "Select graphics",
             "options": [
               {
                   "name": "None",
@@ -1905,91 +3456,8 @@
               ]
           },
           {
-            "name": "Keyboards",
-            "description": "",
-            "options": [
-              {
-                  "name": "Keyboard GR (incl. in base unit)",
-                  "price": 0.0
-              },
-              {
-                  "name": "No Keyboard",
-                  "price": -6.35
-              },
-                {
-                    "name": "RGB Keyboard",
-                    "price": 11.37
-                },
-                {
-                    "name": "Wired Keyboard",
-                    "price": -0.69
-                }
-                ]
-              
-          },
-          
-          {
-            "name": "Warranty",
-            "description": "Select warranty",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "3 Year Onsite Warranty",
-                  "price": 50.60
-              },
-              {
-                  "name": "5 Year Onsite Warranty",
-                  "price": 101.20
-              }
-              ]
-          }
-          ]
-      },{
-        "title": "Product 1",
-        "imagePath": "assets/images/pc-asset.jpg",
-        "link": "https://github.com/neiviv-dev",
-        "screens": [
-            {
-              "name": "Screen 1",
-              "number": 1,
-              "price": 10.0
-            },
-            {
-              "name": "Screen 2",
-              "number": 2,
-              "price": 20.0
-            },
-            {
-              "name": "Screen 3",
-              "number": 3,
-              "price": 30.0
-            }
-          ],
-        "categories": [
-          {
-            "name": "CPU / Processor",
-            "description": "One CPU",
-            "options": [
-              {
-                  "name": "Intel Core i3",
-                  "price": 142.0
-              },
-              {
-                  "name": "Intel Core i5",
-                  "price": 196.0
-                },
-              {
-                  "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
-                  "price": 325.00
-              }
-            ]
-          },
-          {
             "name": "Operating System",
-            "description": "Please take cores of CPU into account",
+            "description": "Select operating system",
             "options": [
               {
                   "name": "None",
@@ -2005,637 +3473,6 @@
               }
               ]
           },
-          {
-            "name": "Memory",
-          "description": "Please take cores of CPU into account",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "8GB (1x8GB) DDR5 4800 ",
-                  "price": 50.60
-              },
-              {
-                  "name": "16GB (2x8GB) DDR5 4800 ",
-                  "price": 101.20
-              },
-              {
-                  "name": "16GB (1x16GB) DDR5 4800 ",
-                  "price": 101.20
-              }
-              ]
-          },
-          {
-            "name": "Storage",
-            "description": "3 slots available:\nup to 2x internal M.2 Storage,\n1x internal Storage with 2,5 in",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "256GB M.2 2280 NVMe SSD",
-                  "price": 50.60
-              },
-              {
-                  "name": "512GB M.2 2280 NVMe SSD",
-                  "price": 101.20
-              },
-              {
-                  "name": "1TB M.2 2280 NVMe SSD",
-                  "price": 202.40
-              }
-              ]
-          },
-          {
-            "name": "Interfaces",
-            "description": "",
-            "options": [
-              {
-                  "name": " 4xUSB -A 10 Gbit/s / 2x DP / 1x USB -C / Audio/ RJ-45",
-                  "price": 0.0
-              }
-              ]
-          },
-          {
-            "name": "Graphics",
-            "description": "1 slots available onboard graphic card\nONLY available with iCore CPU ",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "Intel UHD Graphics 750",
-                  "price": 50.60
-              },
-              {
-                  "name": "NVIDIA GeForce RTX 3060 12GB GDDR6",
-                  "price": 101.20
-              },
-              {
-                  "name": "NVIDIA GeForce RTX 3070 8GB GDDR6",
-                  "price": 202.40
-              }
-              ]
-          },
-          {
-            "name": "Keyboards",
-            "description": "",
-            "options": [
-              {
-                  "name": "Keyboard GR (incl. in base unit)",
-                  "price": 0.0
-              },
-              {
-                  "name": "No Keyboard",
-                  "price": -6.35
-              },
-                {
-                    "name": "RGB Keyboard",
-                    "price": 11.37
-                },
-                {
-                    "name": "Wired Keyboard",
-                    "price": -0.69
-                }
-                ]
-              
-          },
-          
-          {
-            "name": "Warranty",
-            "description": "Select warranty",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "3 Year Onsite Warranty",
-                  "price": 50.60
-              },
-              {
-                  "name": "5 Year Onsite Warranty",
-                  "price": 101.20
-              }
-              ]
-          }
-          ]
-      },{
-        "title": "Product 1",
-        "imagePath": "assets/images/pc-asset.jpg",
-        "link": "https://github.com/neiviv-dev",
-        "screens": [
-            {
-              "name": "Screen 1",
-              "number": 1,
-              "price": 10.0
-            },
-            {
-              "name": "Screen 2",
-              "number": 2,
-              "price": 20.0
-            },
-            {
-              "name": "Screen 3",
-              "number": 3,
-              "price": 30.0
-            }
-          ],
-        "categories": [
-          {
-            "name": "CPU / Processor",
-            "description": "One CPU",
-            "options": [
-              {
-                  "name": "Intel Core i3",
-                  "price": 142.0
-              },
-              {
-                  "name": "Intel Core i5",
-                  "price": 196.0
-                },
-              {
-                  "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
-                  "price": 325.00
-              }
-            ]
-          },
-          {
-            "name": "Operating System",
-            "description": "Please take cores of CPU into account",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "Windows 10 Pro 64-bit",
-                  "price": 50.60
-              },
-              {
-                  "name": "Windows 11 Pro 64-bit",
-                  "price": 101.20
-              }
-              ]
-          },
-          {
-            "name": "Memory",
-          "description": "Please take cores of CPU into account",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "8GB (1x8GB) DDR5 4800 ",
-                  "price": 50.60
-              },
-              {
-                  "name": "16GB (2x8GB) DDR5 4800 ",
-                  "price": 101.20
-              },
-              {
-                  "name": "16GB (1x16GB) DDR5 4800 ",
-                  "price": 101.20
-              }
-              ]
-          },
-          {
-            "name": "Storage",
-            "description": "3 slots available:\nup to 2x internal M.2 Storage,\n1x internal Storage with 2,5 in",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "256GB M.2 2280 NVMe SSD",
-                  "price": 50.60
-              },
-              {
-                  "name": "512GB M.2 2280 NVMe SSD",
-                  "price": 101.20
-              },
-              {
-                  "name": "1TB M.2 2280 NVMe SSD",
-                  "price": 202.40
-              }
-              ]
-          },
-          {
-            "name": "Interfaces",
-            "description": "",
-            "options": [
-              {
-                  "name": " 4xUSB -A 10 Gbit/s / 2x DP / 1x USB -C / Audio/ RJ-45",
-                  "price": 0.0
-              }
-              ]
-          },
-          {
-            "name": "Graphics",
-            "description": "1 slots available onboard graphic card\nONLY available with iCore CPU ",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "Intel UHD Graphics 750",
-                  "price": 50.60
-              },
-              {
-                  "name": "NVIDIA GeForce RTX 3060 12GB GDDR6",
-                  "price": 101.20
-              },
-              {
-                  "name": "NVIDIA GeForce RTX 3070 8GB GDDR6",
-                  "price": 202.40
-              }
-              ]
-          },
-          {
-            "name": "Keyboards",
-            "description": "",
-            "options": [
-              {
-                  "name": "Keyboard GR (incl. in base unit)",
-                  "price": 0.0
-              },
-              {
-                  "name": "No Keyboard",
-                  "price": -6.35
-              },
-                {
-                    "name": "RGB Keyboard",
-                    "price": 11.37
-                },
-                {
-                    "name": "Wired Keyboard",
-                    "price": -0.69
-                }
-                ]
-              
-          },
-          
-          {
-            "name": "Warranty",
-            "description": "Select warranty",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "3 Year Onsite Warranty",
-                  "price": 50.60
-              },
-              {
-                  "name": "5 Year Onsite Warranty",
-                  "price": 101.20
-              }
-              ]
-          }
-          ]
-      },{
-        "title": "Product 1",
-        "imagePath": "assets/images/pc-asset.jpg",
-        "link": "https://github.com/neiviv-dev",
-        "screens": [
-            {
-              "name": "Screen 1",
-              "number": 1,
-              "price": 10.0
-            },
-            {
-              "name": "Screen 2",
-              "number": 2,
-              "price": 20.0
-            },
-            {
-              "name": "Screen 3",
-              "number": 3,
-              "price": 30.0
-            }
-          ],
-        "categories": [
-          {
-            "name": "CPU / Processor",
-            "description": "One CPU",
-            "options": [
-              {
-                  "name": "Intel Core i3",
-                  "price": 142.0
-              },
-              {
-                  "name": "Intel Core i5",
-                  "price": 196.0
-                },
-              {
-                  "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
-                  "price": 325.00
-              }
-            ]
-          },
-          {
-            "name": "Operating System",
-            "description": "Please take cores of CPU into account",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "Windows 10 Pro 64-bit",
-                  "price": 50.60
-              },
-              {
-                  "name": "Windows 11 Pro 64-bit",
-                  "price": 101.20
-              }
-              ]
-          },
-          {
-            "name": "Memory",
-          "description": "Please take cores of CPU into account",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "8GB (1x8GB) DDR5 4800 ",
-                  "price": 50.60
-              },
-              {
-                  "name": "16GB (2x8GB) DDR5 4800 ",
-                  "price": 101.20
-              },
-              {
-                  "name": "16GB (1x16GB) DDR5 4800 ",
-                  "price": 101.20
-              }
-              ]
-          },
-          {
-            "name": "Storage",
-            "description": "3 slots available:\nup to 2x internal M.2 Storage,\n1x internal Storage with 2,5 in",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "256GB M.2 2280 NVMe SSD",
-                  "price": 50.60
-              },
-              {
-                  "name": "512GB M.2 2280 NVMe SSD",
-                  "price": 101.20
-              },
-              {
-                  "name": "1TB M.2 2280 NVMe SSD",
-                  "price": 202.40
-              }
-              ]
-          },
-          {
-            "name": "Interfaces",
-            "description": "",
-            "options": [
-              {
-                  "name": " 4xUSB -A 10 Gbit/s / 2x DP / 1x USB -C / Audio/ RJ-45",
-                  "price": 0.0
-              }
-              ]
-          },
-          {
-            "name": "Graphics",
-            "description": "1 slots available onboard graphic card\nONLY available with iCore CPU ",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "Intel UHD Graphics 750",
-                  "price": 50.60
-              },
-              {
-                  "name": "NVIDIA GeForce RTX 3060 12GB GDDR6",
-                  "price": 101.20
-              },
-              {
-                  "name": "NVIDIA GeForce RTX 3070 8GB GDDR6",
-                  "price": 202.40
-              }
-              ]
-          },
-          {
-            "name": "Keyboards",
-            "description": "",
-            "options": [
-              {
-                  "name": "Keyboard GR (incl. in base unit)",
-                  "price": 0.0
-              },
-              {
-                  "name": "No Keyboard",
-                  "price": -6.35
-              },
-                {
-                    "name": "RGB Keyboard",
-                    "price": 11.37
-                },
-                {
-                    "name": "Wired Keyboard",
-                    "price": -0.69
-                }
-                ]
-              
-          },
-          
-          {
-            "name": "Warranty",
-            "description": "Select warranty",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "3 Year Onsite Warranty",
-                  "price": 50.60
-              },
-              {
-                  "name": "5 Year Onsite Warranty",
-                  "price": 101.20
-              }
-              ]
-          }
-          ]
-      },{
-        "title": "Product 1",
-        "imagePath": "assets/images/pc-asset.jpg",
-        "link": "https://github.com/neiviv-dev",
-        "screens": [
-            {
-              "name": "Screen 1",
-              "number": 1,
-              "price": 10.0
-            },
-            {
-              "name": "Screen 2",
-              "number": 2,
-              "price": 20.0
-            },
-            {
-              "name": "Screen 3",
-              "number": 3,
-              "price": 30.0
-            }
-          ],
-        "categories": [
-          {
-            "name": "CPU / Processor",
-            "description": "One CPU",
-            "options": [
-              {
-                  "name": "Intel Core i3",
-                  "price": 142.0
-              },
-              {
-                  "name": "Intel Core i5",
-                  "price": 196.0
-                },
-              {
-                  "name": "Intel Core i7-12700 2.10G 25MB 12 cores 65W",
-                  "price": 325.00
-              }
-            ]
-          },
-          {
-            "name": "Operating System",
-            "description": "Please take cores of CPU into account",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "Windows 10 Pro 64-bit",
-                  "price": 50.60
-              },
-              {
-                  "name": "Windows 11 Pro 64-bit",
-                  "price": 101.20
-              }
-              ]
-          },
-          {
-            "name": "Memory",
-          "description": "Please take cores of CPU into account",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "8GB (1x8GB) DDR5 4800 ",
-                  "price": 50.60
-              },
-              {
-                  "name": "16GB (2x8GB) DDR5 4800 ",
-                  "price": 101.20
-              },
-              {
-                  "name": "16GB (1x16GB) DDR5 4800 ",
-                  "price": 101.20
-              }
-              ]
-          },
-          {
-            "name": "Storage",
-            "description": "3 slots available:\nup to 2x internal M.2 Storage,\n1x internal Storage with 2,5 in",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "256GB M.2 2280 NVMe SSD",
-                  "price": 50.60
-              },
-              {
-                  "name": "512GB M.2 2280 NVMe SSD",
-                  "price": 101.20
-              },
-              {
-                  "name": "1TB M.2 2280 NVMe SSD",
-                  "price": 202.40
-              }
-              ]
-          },
-          {
-            "name": "Interfaces",
-            "description": "",
-            "options": [
-              {
-                  "name": " 4xUSB -A 10 Gbit/s / 2x DP / 1x USB -C / Audio/ RJ-45",
-                  "price": 0.0
-              }
-              ]
-          },
-          {
-            "name": "Graphics",
-            "description": "1 slots available onboard graphic card\nONLY available with iCore CPU ",
-            "options": [
-              {
-                  "name": "None",
-                  "price": 0.0
-              },
-              {
-                  "name": "Intel UHD Graphics 750",
-                  "price": 50.60
-              },
-              {
-                  "name": "NVIDIA GeForce RTX 3060 12GB GDDR6",
-                  "price": 101.20
-              },
-              {
-                  "name": "NVIDIA GeForce RTX 3070 8GB GDDR6",
-                  "price": 202.40
-              }
-              ]
-          },
-          {
-            "name": "Keyboards",
-            "description": "",
-            "options": [
-              {
-                  "name": "Keyboard GR (incl. in base unit)",
-                  "price": 0.0
-              },
-              {
-                  "name": "No Keyboard",
-                  "price": -6.35
-              },
-                {
-                    "name": "RGB Keyboard",
-                    "price": 11.37
-                },
-                {
-                    "name": "Wired Keyboard",
-                    "price": -0.69
-                }
-                ]
-              
-          },
-          
           {
             "name": "Warranty",
             "description": "Select warranty",
@@ -2656,4 +3493,5 @@
           }
           ]
       }
-    ]
+]
+  
